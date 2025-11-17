@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.env
+
+# Conda (如果环境在项目内)
+/anaconda3/
+/envs/
+
+
+# 操作系统
+.DS_Store
