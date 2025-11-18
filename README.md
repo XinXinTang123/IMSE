@@ -45,4 +45,4 @@ You can also use the pretrained best checkpoint file we provide in `paper_result
 
 
 ## Acknowledgements
-We referred to [MP-SENet](https://github.com/yxlu-0102/MP-SENet), [MB-TaylorFormer](https://github.com/FVL2020/ICCV-2023-MB-TaylorFormer)
+We referred to [MP-SENet](https://github.com/yxlu-0102/MP-SENet), [MB-TaylorFormer](https://github.com/FVL2020/ICCV-2023-MB-TaylorFormer), [MUSE](https://github.com/huaidanquede/MUSE-Speech-Enhancement)
