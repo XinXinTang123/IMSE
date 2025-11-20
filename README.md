@@ -12,6 +12,12 @@
 ```
 conda env create -f environment.yml
 ```
+3. activate conda env
+
+```
+conda activate imse
+```
+
 4. Download and extract the [VoiceBank-DEMAND-16k](https://huggingface.co/datasets/JacobLinCool/VoiceBank-DEMAND-16k). Use downsampling.py to process the dataset to format it for model training. Please read the code carefully to understand the four variables required to run downsampling.py: clean_train_path, noisy_train_path, clean_test_path, and resample_path. Adjust them to your project directory and then run the script.
 ```
 python downsampling.py
