@@ -45,6 +45,9 @@ python create_test_list.py --test_dir_to_scan "your generated_files"
 ```
 3. Use cal_metrics.py to calculate the PESQ, CSIG, CBAK, COVL, and STOI metrics for your best model.
 ```
+cd cal_metrics
+```
+```
 python cal_metrics.py --clean_wav_dir "your clean_test_path" --noisy_wav_dir "your generated_files" --input_test_file "your test_final.txt"
 ```
 You can also use the pretrained best checkpoint file we provide in `paper_result/g_best_pesq_3.373`.<br>
