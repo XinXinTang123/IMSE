@@ -9,7 +9,7 @@ import torch
 import librosa
 from env import AttrDict
 from datasets.dataset import mag_pha_stft, mag_pha_istft
-from models.generator import MUSE
+from models.generator import IMSE
 import soundfile as sf
 import random
 h = None
@@ -108,7 +108,7 @@ def process_audio_segment(noisy_wav, model, h, device):
 
 
 def inference(a):
-    model = MUSE(h).to(device)
+    model = IMSE(h).to(device)
 
     state_dict = load_checkpoint(a.checkpoint_file, device)
     model.load_state_dict(state_dict['generator'])
